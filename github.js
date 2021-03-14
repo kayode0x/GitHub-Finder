@@ -6,7 +6,7 @@ class GitHub {
                 Authorization: 'token ' + config.Authorization,
             },
         }
-        this.repos_count = 10
+        this.repos_count = 20
         this.repos_sort = 'created: asc'
     };
 

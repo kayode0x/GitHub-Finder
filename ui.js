@@ -57,9 +57,11 @@ class UI {
                             <p>${repo.description}</p>
                         </div>
                         <div class="col-md-6">
-                        <span class="badge badge-primary"><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
-                        <span class="badge badge-success"><i class="fas fa-eye"></i> ${repo.watchers_count}</span>
-                        <span class="badge badge-secondary"><i class="fas fa-code-branch"></i> ${repo.forks}</span>
+                            <span class="badge badge-warning"><i class="fas fa-code"></i> ${repo.language}</span>
+                            <span class="badge badge-primary"><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
+                            <span class="badge badge-success"><i class="fas fa-eye"></i> ${repo.watchers_count}</span>
+                            <span class="badge badge-secondary"><i class="fas fa-code-branch"></i> ${repo.forks}</span>
+                            <span class="badge badge-danger"><i class="fas fa-exclamation-circle"></i> ${repo.open_issues_count}</span>
                         </div>
                     </div>
                 </div>
