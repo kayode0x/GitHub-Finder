@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.first {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.second {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.container-sm{
+    max-width: 50rem;
+}
+
+.badge {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 3px;
+    color: #fff;
+    font-size: .75rem;
+}
