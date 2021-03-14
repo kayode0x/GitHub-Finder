@@ -7,7 +7,7 @@ class UI {
     showProfile(user){
         this.profile.innerHTML = `
             <style>
-                ul .fas, .fab{
+                ul .fas, .list-group .fab{
                     color: #fff;
                     margin-right: 1rem;
                 }

@@ -8,14 +8,12 @@ body {
     position: absolute;
     bottom: 0%;
     width: 100%;
-    margin-top: 0rem;
 }
 
 .second {
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 0rem;
 }
 
 .container-sm{
